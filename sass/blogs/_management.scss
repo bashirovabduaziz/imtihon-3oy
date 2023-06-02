@@ -1,0 +1,53 @@
+.manage{
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 100px;
+    &__card{
+        display: flex;
+        align-items: center;
+    }
+    &__title{
+        font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 44px;
+line-height: 54px;
+color: #121212;
+    }
+    &__text2{
+        font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 30px;
+color: #656565;
+width: 500px;
+    }
+    &__as{
+        display: flex;
+    }
+    &__h4{
+        font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 34px;
+color: #121212;
+    }
+    &__text{
+        font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 30px;
+color: #656565;
+width: 400px;
+margin-left: 76px;
+    }
+    &__left{
+        margin-left: 80px;
+    }
+    &__right{
+        margin-left: 30px;
+    }
+}

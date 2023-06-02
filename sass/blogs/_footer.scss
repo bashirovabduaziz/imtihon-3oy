@@ -1,0 +1,94 @@
+.footer{
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+    &__container{
+        display: flex;
+        
+    }
+    &__list{
+        list-style: none;
+        align-items: center;
+        display: flex;
+    }
+    &__item {
+        text-decoration: none;
+        margin-left: 30px;
+        font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 20px;
+color: #656565;
+    }
+    &__itema {
+        text-decoration: none;
+        margin-left: 30px;
+        font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 22px;
+color: #121212;
+    }
+    &__link3{
+        margin-top: 35px;
+        margin-left: 130px;
+    }
+    &__link2{
+        margin-bottom: 30px;
+        margin-left: 50px;
+    }
+    &__as{
+        margin-left: 100px;
+    }
+    &__cards{
+        flex-wrap: wrap;
+        margin-top: 30px;
+    }
+    &__as-master{
+        display: flex;
+        margin-left: 100px;
+    }
+    &__card{
+        display: flex;
+        align-items: center;
+        margin-top: 30px;
+    }
+    &__i{
+        font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 22px;
+color: #121212;
+text-decoration: none;
+margin-left: 100px;
+ position: absolute;
+
+}
+&__as{
+    margin-top: 40px;
+}
+&__text2{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 30px;
+text-align: center;
+color: #656565;
+}
+&__span{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 30px;
+text-align: center;
+color: #FF5634;
+}
+ &__hr{
+    margin-top: 80px;
+ }  
+}

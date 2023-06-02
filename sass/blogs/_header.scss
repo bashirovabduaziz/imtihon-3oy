@@ -1,0 +1,107 @@
+.header{
+    max-width: 100%;
+    
+    &__container{
+        width: 1200px;
+        margin: 0 auto;
+        border: 1px;
+    }
+    &__nav{
+        display: flex;
+        align-items: center;
+        position: fixed;
+        z-index: 100;
+        background: #FFFFFF;
+box-shadow: 0px 3px 12px rgba(18, 18, 18, 0.06);
+border-radius: 0px;
+    }
+    &__list{
+        display: flex;
+        align-items: center;
+        list-style: none;
+        margin-left: 400px;
+        cursor: pointer;
+    }
+     &__item-design{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 18px;
+        /* identical to box height, or 112% */
+        
+        color: #FF5634 !important;
+        text-decoration: none;
+        cursor: pointer;
+
+    }
+    &__item{
+        
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 18px;
+color: #121212; 
+text-decoration: none;
+margin-left: 30px;
+cursor: pointer;
+
+    }
+    &__btn{
+        font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 18px;
+text-align: center;
+color: #121212;
+background: #FFFFFF;
+border: 1px solid #EDEDED;
+box-shadow: 0px 2px 6px rgba(16, 16, 16, 0.04);
+border-radius: 12px;
+height: 40px;
+width: 162px;
+margin-left: 30px;
+cursor: pointer;
+
+    }
+    &__button{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 18px;
+        text-align: center;
+        color: #FFFFFF;
+        background: #FF5634;
+border: 1px solid #FF5634;
+border-radius: 12px;
+width: 100px;
+height: 40px;
+margin-left: 10px;
+cursor: pointer;
+
+    }
+    &__btn:hover{
+        transition: 1s;
+        background-color: #121212;
+        color: #FFFFFF;
+        border: 2px solid grey;
+    }
+    &__button:hover{
+        transition: 1s;
+        background-color: #FFFFFF;
+        color: #FF5634;
+        border:2px solid #FF5634;
+    }
+   &__item-design:hover{
+    transition: 1s;
+    color: #121212 !important;
+   }
+    &__item:hover{
+        transition: 1s;
+         color: #FF5634;
+
+     }
+}

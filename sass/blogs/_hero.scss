@@ -1,0 +1,145 @@
+.hero{
+    width: 1200px;
+    height: 600px;
+    margin: 0 auto;
+    position: relative;
+   
+    &__assist{
+        display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    }
+    &__p{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 20px;
+        letter-spacing: 1.08px;
+        text-transform: uppercase;
+        color: #FF5634;  
+        cursor: pointer;
+
+    }
+    &__title{
+        font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 62px;
+line-height: 72px;
+color: #121212;
+width: 514px;
+cursor: pointer;
+
+    }
+    &__text{
+        font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 30px;
+color: #656565;
+width: 560px;
+cursor: pointer;
+
+    }
+    &__button{
+        font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 20px;
+text-align: center;
+color: #FFFFFF;
+background: #FF5634;
+border: 1px solid #FF5634;
+border-radius: 12px;
+height: 40px;
+width: 162px;
+cursor: pointer;
+
+    }
+    &__hr{
+        background: #CACACA;
+border-radius: 0px;
+width: 550px;
+cursor: pointer;
+
+    }
+    &__btn{
+        font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 18px;
+text-align: center;
+color: #121212;
+background: #FFFFFF;
+border: 1px solid #EDEDED;
+box-shadow: 0px 2px 6px rgba(16, 16, 16, 0.04);
+border-radius: 12px;
+height: 40px;
+width: 162px;
+margin-left: 10px;
+cursor: pointer;
+
+    }
+    &__cards{
+        display: flex;
+        margin-top: 30px;
+        cursor: pointer;
+
+    }
+    &__img{
+        margin-top: 60px;
+        height: 500px;
+        cursor: pointer;
+        
+    }
+    &__image{
+        height: 600px;
+        width: 500px;
+        z-index: -2;
+        position: absolute;
+        top: -30px;
+        right: -20px;
+        cursor: pointer;
+
+    }
+    &__card{
+        margin-left: 30px;
+    }
+&__btn:hover{
+    transition: 1s;
+    background-color: #121212;
+    color: #FFFFFF;
+    border: 2px solid grey;
+}
+&__button:hover{
+    transition: 1s;
+    background-color: #FFFFFF;
+    color: #FF5634;
+    border:2px solid #FF5634;
+}
+&__assistnt{
+    margin-top: 50px;
+}
+&__as-title{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 22px;
+text-align: center;
+color: #656565;
+}
+&__imgs{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+&__hr2{
+    margin-top: 40px;
+}
+}
